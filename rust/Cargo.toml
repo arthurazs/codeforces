@@ -11,3 +11,7 @@ path = "src/4a.rs"
 [[bin]]
 name = "way-too-long-words"
 path = "src/71a.rs"
+
+[[bin]]
+name = "team"
+path = "src/231a.rs"
