@@ -15,3 +15,7 @@ path = "src/71a.rs"
 [[bin]]
 name = "team"
 path = "src/231a.rs"
+
+[[bin]]
+name = "next-round"
+path = "src/158a.rs"
