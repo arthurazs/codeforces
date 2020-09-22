@@ -23,3 +23,7 @@ path = "src/158a.rs"
 [[bin]]
 name = "domino-piling"
 path = "src/50a.rs"
+
+[[bin]]
+name = "bit-plus-plus"
+path = "src/282a.rs"
