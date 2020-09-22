@@ -7,3 +7,7 @@ edition = "2018"
 [[bin]]
 name = "watermelon"
 path = "src/4a.rs"
+
+[[bin]]
+name = "way-too-long-words"
+path = "src/71a.rs"
