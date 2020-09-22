@@ -19,3 +19,7 @@ path = "src/231a.rs"
 [[bin]]
 name = "next-round"
 path = "src/158a.rs"
+
+[[bin]]
+name = "domino-piling"
+path = "src/50a.rs"
