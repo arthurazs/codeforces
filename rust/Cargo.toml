@@ -27,3 +27,7 @@ path = "src/50a.rs"
 [[bin]]
 name = "bit-plus-plus"
 path = "src/282a.rs"
+
+[[bin]]
+name = "petya-and-strings"
+path = "src/112a.rs"
