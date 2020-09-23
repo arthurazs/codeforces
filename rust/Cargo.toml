@@ -39,3 +39,7 @@ path = "src/263a.rs"
 [[bin]]
 name = "a-plus-b"
 path = "src/99999100.rs"
+
+[[bin]]
+name = "theatre-square"
+path = "src/1a.rs"
