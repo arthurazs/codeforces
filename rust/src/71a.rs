@@ -21,9 +21,9 @@ fn main() {
         let length: usize = word.len();
         if length > 10 {
              let mut new_word: String = String::new();
-             new_word.push(word.chars().nth(0).unwrap());
+             new_word.push_str(&word[0..1]);
              new_word.push_str(&(length - 2).to_string());
-             new_word.push(word.chars().nth(length - 1).unwrap());
+             new_word.push_str(&word[length - 1..length]);
              word = new_word;
         }
         println!("{}", word);
