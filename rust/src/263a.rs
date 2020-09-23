@@ -11,13 +11,10 @@ fn read_vec() -> Vec<u8> {
         .collect()
 }
 
-fn find(row: &Vec<u8>) -> (bool, u8) {
+fn find(row: &Vec<u8>) -> (bool, i8) {
     for (index, &value) in row.iter().enumerate() {
         if value == 1 {
-            if index != 2 {
-                return (true, (index as i8 - 1).abs() as u8 % 2 + 1);
-            }
-            return (true, 0);
+            return (true, (index as i8 - 2).abs());
         }
     }
     (false, 0)
@@ -26,7 +23,7 @@ fn find(row: &Vec<u8>) -> (bool, u8) {
 fn main() {
     let mut row: Vec<u8>;
     let mut found: bool = false;
-    let mut moves: u8 = 0;
+    let mut moves: i8 = 0;
 
     for index in [2, 1, 0, 1, 2].iter() {
         row = read_vec();
