@@ -35,3 +35,7 @@ path = "src/112a.rs"
 [[bin]]
 name = "beautiful-matrix"
 path = "src/263a.rs"
+
+[[bin]]
+name = "a-plus-b"
+path = "src/99999100.rs"
