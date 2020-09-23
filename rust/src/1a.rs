@@ -4,6 +4,10 @@ fn read_str() -> String {
     buffer.trim().to_string()
 }
 
+fn div_ceil(dividend: u64, divisor: u64) -> u64 {
+    (dividend + divisor - 1) / divisor
+}
+
 fn main() {
     let n: u64;
     let m: u64;
@@ -19,5 +23,5 @@ fn main() {
         a = values[2];
     }
 
-    println!("{}", ((n + a - 1) / a) * ((m + a - 1) / a));
+    println!("{}", div_ceil(n, a) * div_ceil(m, a));
 }
