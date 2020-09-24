@@ -55,3 +55,7 @@ path = "src/339a.rs"
 [[bin]]
 name = "word-capitalization"
 path = "src/281a.rs"
+
+[[bin]]
+name = "stones-on-the-table"
+path = "src/266a.rs"
