@@ -51,3 +51,7 @@ path = "src/118a.rs"
 [[bin]]
 name = "helpful-maths"
 path = "src/339a.rs"
+
+[[bin]]
+name = "word-capitalization"
+path = "src/281a.rs"
