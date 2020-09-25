@@ -67,3 +67,7 @@ path = "src/96a.rs"
 [[bin]]
 name = "boy-or-girl"
 path = "src/236a.rs"
+
+[[bin]]
+name = "young-physicist"
+path = "src/69a.rs"
