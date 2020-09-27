@@ -75,3 +75,7 @@ path = "src/69a.rs"
 [[bin]]
 name = "soldier-and-bananas"
 path = "src/546a.rs"
+
+[[bin]]
+name = "bear-and-big-brother"
+path = "src/791a.rs"
