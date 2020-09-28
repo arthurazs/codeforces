@@ -79,3 +79,7 @@ path = "src/546a.rs"
 [[bin]]
 name = "bear-and-big-brother"
 path = "src/791a.rs"
+
+[[bin]]
+name = "chat-room"
+path = "src/58a.rs"
