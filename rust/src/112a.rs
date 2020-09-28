@@ -1,13 +1,9 @@
-fn read_str() -> String {
-    let mut buffer: String = String::new();
-    std::io::stdin().read_line(&mut buffer).expect("Error");
-    buffer.make_ascii_lowercase();
-    buffer.trim().to_string()
-}
+mod utils;
+use utils::read_str_lowercase;
 
 fn main() {
-    let first: String = read_str();
-    let second: String = read_str();
+    let mut first: String = read_str_lowercase();
+    let mut second: String = read_str_lowercase();
 
     if first > second { println!("{}", 1); }
     else if first < second { println!("{}", -1); }

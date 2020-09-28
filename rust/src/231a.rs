@@ -1,10 +1,5 @@
-fn read_str() -> String {
-    let mut buffer: String = String::new();
-    std::io::stdin().read_line(&mut buffer).expect("Error");
-    buffer.trim().to_string()
-}
-
-fn read_int() -> u16 { read_str().parse().unwrap() }
+mod utils;
+use utils::{read_str, read_int};
 
 fn main() {
     let mut total: u16 = 0;

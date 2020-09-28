@@ -1,17 +1,5 @@
-use std::io::stdin;
-
-
-fn read_int() -> i8 {
-    let mut buffer: String = String::new();
-    stdin().read_line(&mut buffer).expect("Error");
-    buffer.trim().parse::<i8>().unwrap()
-}
-
-fn read_str() -> String {
-    let mut buffer: String = String::new();
-    stdin().read_line(&mut buffer).expect("Error");
-    buffer.trim().to_string()
-}
+mod utils;
+use utils::{read_int, read_str};
 
 fn main() {
     let test_length: i8 = read_int();

@@ -1,17 +1,5 @@
-fn read_str() -> String {
-    let mut buffer: String = String::new();
-    std::io::stdin().read_line(&mut buffer).expect("Error");
-    buffer.trim().to_string()
-}
-
-fn read_vec() -> Vec<i8> {
-    read_str()
-        .split_whitespace()
-        .map(|force| force
-             .parse::<i8>()
-             .expect("Error"))
-        .collect()
-}
+mod utils;
+use utils::{read_str, read_vec};
 
 fn main() {
     let mut x: i8 = 0;
@@ -20,7 +8,7 @@ fn main() {
     let mut forces: Vec<i8>; 
 
     for _ in 0..read_str().parse::<u8>().expect("Error") {
-        forces = read_vec();
+        forces = read_vec(' ');
         x += forces[0];
         y += forces[1];
         z += forces[2];

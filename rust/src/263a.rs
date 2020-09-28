@@ -1,15 +1,5 @@
-fn read_str() -> String {
-    let mut buffer: String = String::new();
-    std::io::stdin().read_line(&mut buffer).expect("Error");
-    buffer.trim().to_string()
-}
-
-fn read_vec() -> Vec<u8> {
-    read_str()
-        .split_whitespace()
-        .map(|value| value.parse::<u8>().expect("Error"))
-        .collect()
-}
+mod utils;
+use utils::read_vec;
 
 fn find(row: &Vec<u8>) -> (bool, i8) {
     for (index, &value) in row.iter().enumerate() {
@@ -26,7 +16,7 @@ fn main() {
     let mut moves: i8 = 0;
 
     for index in [2, 1, 0, 1, 2].iter() {
-        row = read_vec();
+        row = read_vec(' ');
 
         if !found {
             let new_value = find(&row);
