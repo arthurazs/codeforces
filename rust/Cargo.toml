@@ -95,3 +95,7 @@ path = "src/122a.rs"
 [[bin]]
 name = "wrong-subtraction"
 path = "src/977a.rs"
+
+[[bin]]
+name = "elephant"
+path = "src/617a.rs"
