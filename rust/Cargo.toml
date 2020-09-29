@@ -83,7 +83,6 @@ path = "src/791a.rs"
 [[bin]]
 name = "chat-room"
 path = "src/58a.rs"
-<<<<<<< HEAD
 
 [[bin]]
 name = "tram"
@@ -100,5 +99,3 @@ path = "src/977a.rs"
 [[bin]]
 name = "elephant"
 path = "src/617a.rs"
-=======
->>>>>>> master
