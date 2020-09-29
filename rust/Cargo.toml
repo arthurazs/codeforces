@@ -87,3 +87,7 @@ path = "src/58a.rs"
 [[bin]]
 name = "tram"
 path = "src/116a.rs"
+
+[[bin]]
+name = "lucky-division"
+path = "src/122a.rs"
