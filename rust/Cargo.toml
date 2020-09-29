@@ -91,3 +91,7 @@ path = "src/116a.rs"
 [[bin]]
 name = "lucky-division"
 path = "src/122a.rs"
+
+[[bin]]
+name = "wrong-subtraction"
+path = "src/977a.rs"
