@@ -103,3 +103,7 @@ path = "src/617a.rs"
 [[bin]]
 name = "twins"
 path = "src/160a.rs"
+
+[[bin]]
+name = "queue-at-the-school"
+path = "src/266b.rs"
