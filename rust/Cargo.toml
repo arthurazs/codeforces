@@ -123,3 +123,7 @@ path = "src/a/41.rs"
 [[bin]]
 name = "hq9plus"
 path = "src/a/133.rs"
+
+[[bin]]
+name = "anton-and-danik"
+path = "src/a/734.rs"
