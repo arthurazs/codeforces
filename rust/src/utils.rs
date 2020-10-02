@@ -7,7 +7,7 @@ pub fn read_str() -> String {
 }
 
 pub fn read_str_lowercase() -> String {
-    let mut buffer: String = read_str();
+    let buffer: String = read_str();
     buffer.to_lowercase()
 }
 

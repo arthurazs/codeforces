@@ -6,35 +6,35 @@ edition = "2018"
 
 [[bin]]
 name = "watermelon"
-path = "src/4a.rs"
+path = "src/a/4.rs"
 
 [[bin]]
 name = "way-too-long-words"
-path = "src/71a.rs"
+path = "src/a/71.rs"
 
 [[bin]]
 name = "team"
-path = "src/231a.rs"
+path = "src/a/231.rs"
 
 [[bin]]
 name = "next-round"
-path = "src/158a.rs"
+path = "src/a/158.rs"
 
 [[bin]]
 name = "domino-piling"
-path = "src/50a.rs"
+path = "src/a/50.rs"
 
 [[bin]]
 name = "bit-plus-plus"
-path = "src/282a.rs"
+path = "src/a/282.rs"
 
 [[bin]]
 name = "petya-and-strings"
-path = "src/112a.rs"
+path = "src/a/112.rs"
 
 [[bin]]
 name = "beautiful-matrix"
-path = "src/263a.rs"
+path = "src/a/263.rs"
 
 [[bin]]
 name = "a-plus-b"
@@ -42,84 +42,84 @@ path = "src/99999100.rs"
 
 [[bin]]
 name = "theatre-square"
-path = "src/1a.rs"
+path = "src/a/1.rs"
 
 [[bin]]
 name = "string-task"
-path = "src/118a.rs"
+path = "src/a/118.rs"
 
 [[bin]]
 name = "helpful-maths"
-path = "src/339a.rs"
+path = "src/a/339.rs"
 
 [[bin]]
 name = "word-capitalization"
-path = "src/281a.rs"
+path = "src/a/281.rs"
 
 [[bin]]
 name = "stones-on-the-table"
-path = "src/266a.rs"
+path = "src/a/266.rs"
 
 [[bin]]
 name = "football"
-path = "src/96a.rs"
+path = "src/a/96.rs"
 
 [[bin]]
 name = "boy-or-girl"
-path = "src/236a.rs"
+path = "src/a/236.rs"
 
 [[bin]]
 name = "young-physicist"
-path = "src/69a.rs"
+path = "src/a/69.rs"
 
 [[bin]]
 name = "soldier-and-bananas"
-path = "src/546a.rs"
+path = "src/a/546.rs"
 
 [[bin]]
 name = "bear-and-big-brother"
-path = "src/791a.rs"
+path = "src/a/791.rs"
 
 [[bin]]
 name = "chat-room"
-path = "src/58a.rs"
+path = "src/a/58.rs"
 
 [[bin]]
 name = "tram"
-path = "src/116a.rs"
+path = "src/a/116.rs"
 
 [[bin]]
 name = "lucky-division"
-path = "src/122a.rs"
+path = "src/a/122.rs"
 
 [[bin]]
 name = "wrong-subtraction"
-path = "src/977a.rs"
+path = "src/a/977.rs"
 
 [[bin]]
 name = "elephant"
-path = "src/617a.rs"
+path = "src/a/617.rs"
 
 [[bin]]
 name = "twins"
-path = "src/160a.rs"
+path = "src/a/160.rs"
 
 [[bin]]
 name = "queue-at-the-school"
-path = "src/266b.rs"
+path = "src/b/266.rs"
 
 [[bin]]
 name = "nearly-lucky-number"
-path = "src/110a.rs"
+path = "src/a/110.rs"
 
 [[bin]]
 name = "word"
-path = "src/59a.rs"
+path = "src/a/59.rs"
 
 [[bin]]
 name = "translation"
-path = "src/41a.rs"
+path = "src/a/41.rs"
 
 [[bin]]
 name = "hq9plus"
-path = "src/133a.rs"
+path = "src/a/133.rs"

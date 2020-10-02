@@ -1,4 +1,4 @@
-mod utils;
+#[path = "../utils.rs"] mod utils;
 use utils::read_int;
 
 fn main() {

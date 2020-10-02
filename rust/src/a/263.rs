@@ -1,4 +1,4 @@
-mod utils;
+#[path = "../utils.rs"] mod utils;
 use utils::read_vec;
 
 fn find(row: &Vec<u8>) -> (bool, i8) {
