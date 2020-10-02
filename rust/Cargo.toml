@@ -107,3 +107,7 @@ path = "src/160a.rs"
 [[bin]]
 name = "queue-at-the-school"
 path = "src/266b.rs"
+
+[[bin]]
+name = "nearly-lucky-number"
+path = "src/110a.rs"
