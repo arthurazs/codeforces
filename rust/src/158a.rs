@@ -2,7 +2,7 @@ mod utils;
 use utils::read_vec;
 
 fn main() {
-    let k: usize = read_vec::<u8>()[1] as usize;
+    let k: usize = read_vec::<u8>(' ')[1] as usize;
     let scores: Vec<u8> = read_vec(' ');
 
     let min: u8 = scores[k - 1];
