@@ -119,3 +119,7 @@ path = "src/59a.rs"
 [[bin]]
 name = "translation"
 path = "src/41a.rs"
+
+[[bin]]
+name = "hq9plus"
+path = "src/133a.rs"
