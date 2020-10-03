@@ -139,3 +139,7 @@ path = "src/b/158.rs"
 [[bin]]
 name = "george-and-accommodation"
 path = "src/a/467.rs"
+
+[[bin]]
+name = "beautiful-year"
+path = "src/a/271.rs"
