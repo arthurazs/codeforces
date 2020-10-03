@@ -22,6 +22,11 @@ pub fn read_vec<T: FromStr>(split_char: char) -> Vec<T> {
         .collect()
 }
 
+pub fn read_tuple<T: FromStr + Copy>() -> (T, T) {
+    let buffer: Vec<T> = read_vec(' ');
+    (buffer[0], buffer[1])
+}
+
 pub trait Utils { fn div_ceil(self, divisor: Self) -> Self; }
 macro_rules! impl_div { ($($t:ty)+) => { $(
     impl Utils for $t {
