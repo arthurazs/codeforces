@@ -131,3 +131,7 @@ path = "src/a/133.rs"
 [[bin]]
 name = "anton-and-danik"
 path = "src/a/734.rs"
+
+[[bin]]
+name = "taxi"
+path = "src/b/158.rs"
