@@ -1,4 +1,3 @@
-#[path = "../utils.rs"] mod utils;
 use utils::read_str;
 
 use std::collections::HashSet;

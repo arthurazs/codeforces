@@ -1,5 +1,4 @@
-#[path = "../utils.rs"] mod utils;
-use utils::{read_vec, div_ceil};
+use utils::{read_vec, Utils};
 
 fn main() {
     let (n, m, a): (u64, u64, u64) = {
@@ -7,5 +6,5 @@ fn main() {
         (values[0], values[1], values[2])
     };
 
-    println!("{}", div_ceil(n, a) * div_ceil(m, a));
+    println!("{}", n.div_ceil(a) * m.div_ceil(a));
 }

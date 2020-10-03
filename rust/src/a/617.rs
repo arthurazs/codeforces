@@ -1,6 +1,5 @@
-#[path = "../utils.rs"] mod utils;
-use utils::{read_int, div_ceil};
+use utils::{read_int, Utils};
 
 fn main() {
-    println!("{}", div_ceil(read_int(), 5));
+    println!("{}", read_int::<u64>().div_ceil(5u64));
 }

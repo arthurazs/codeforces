@@ -1,4 +1,3 @@
-#[path = "../utils.rs"] mod utils;
 use utils::read_str_lowercase;
 
 fn main() {

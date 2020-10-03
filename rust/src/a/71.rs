@@ -1,4 +1,3 @@
-#[path = "../utils.rs"] mod utils;
 use utils::{read_int, read_str};
 
 fn main() {

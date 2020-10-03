@@ -4,6 +4,10 @@ version = "0.1.0"
 authors = ["Arthur Zopellaro <arthurazsoares@gmail.com>"]
 edition = "2018"
 
+[lib]
+name = "utils"
+path = "src/utils.rs"
+
 [[bin]]
 name = "watermelon"
 path = "src/a/4.rs"
