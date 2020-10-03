@@ -1,19 +1,13 @@
 use utils::read_vec;
 
 fn main() {
-    let mut numbers: Vec<u8> = read_vec('+');
-    let mut expression: String = String::new();
+    let mut numbers: Vec<String>= read_vec('+');
 
     if numbers.len() > 1 {
         numbers.sort();
-        expression.push_str(&numbers[0].to_string());
-        for number in &numbers[1..] {
-            expression.push('+');
-            expression.push_str(&number.to_string());
-        }
+        println!("{}", numbers.join("+"));
     }
     else {
-        expression.push_str(&numbers[0].to_string());
+        println!("{}", numbers[0]);
     }
-    println!("{}", expression);
 }

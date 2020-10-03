@@ -6,9 +6,5 @@ fn main() {
         (values[0], values[1], values[2])
     };
 
-    let mut total: u32 = (1 + w) * w * k / 2;
-    if total >= n { total -= n; }
-    else { total = 0; }
-
-    println!("{}", total);
+    println!("{}", ((1 + w) * w * k / 2).saturating_sub(n));
 }
