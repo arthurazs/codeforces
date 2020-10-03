@@ -1,5 +1,4 @@
 use std::str::FromStr;
-// use std::ops::{Add, Sub, Div};
 
 pub fn read_str() -> String {
     let mut buffer: String = String::new();
@@ -22,14 +21,6 @@ pub fn read_vec<T: FromStr>(split_char: char) -> Vec<T> {
         .map(|value| value.parse::<T>().ok().expect("Error"))
         .collect()
 }
-// pub trait Parse { fn one() -> Self; }
-// macro_rules! impl_one { ($($t:ty)+) => { $(impl Parse for $t { fn one() -> $t { 1 } })* } }
-// impl_one!{u32 u64}
-//
-// pub fn div_ceil<T>(dividend: T, divisor: T) -> T
-//     where T: Copy + Add<Output = T> + Parse + Sub<Output = T> + Div<Output = T> {
-//     (dividend + divisor - Parse::one()) / divisor
-// }
 
 pub trait Utils { fn div_ceil(self, divisor: Self) -> Self; }
 macro_rules! impl_div { ($($t:ty)+) => { $(
@@ -40,3 +31,13 @@ macro_rules! impl_div { ($($t:ty)+) => { $(
     }
 )*}}
 impl_div!{u32 u64}
+
+// use std::ops::{Add, Sub, Div};
+// pub trait Parse { fn one() -> Self; }
+// macro_rules! impl_one { ($($t:ty)+) => { $(impl Parse for $t { fn one() -> $t { 1 } })* } }
+// impl_one!{u32 u64}
+//
+// pub fn div_ceil<T>(dividend: T, divisor: T) -> T
+//     where T: Copy + Add<Output = T> + Parse + Sub<Output = T> + Div<Output = T> {
+//     (dividend + divisor - Parse::one()) / divisor
+// }
