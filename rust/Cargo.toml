@@ -147,3 +147,7 @@ path = "src/a/271.rs"
 [[bin]]
 name = "presents"
 path = "src/a/136.rs"
+
+[[bin]]
+name = "kefa-and-first-steps"
+path = "src/a/580.rs"
