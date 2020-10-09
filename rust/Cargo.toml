@@ -155,3 +155,7 @@ path = "src/a/580.rs"
 [[bin]]
 name = "caps-lock"
 path = "src/a/131.rs"
+
+[[bin]]
+name = "magnets"
+path = "src/a/344.rs"
