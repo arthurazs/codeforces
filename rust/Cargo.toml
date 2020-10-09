@@ -151,3 +151,7 @@ path = "src/a/136.rs"
 [[bin]]
 name = "kefa-and-first-steps"
 path = "src/a/580.rs"
+
+[[bin]]
+name = "caps-lock"
+path = "src/a/131.rs"
