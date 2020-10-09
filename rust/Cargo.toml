@@ -163,3 +163,7 @@ path = "src/a/344.rs"
 [[bin]]
 name = "in-search-of-an-easy-problem"
 path = "src/a/1030.rs"
+
+[[bin]]
+name = "hulk"
+path = "src/a/705.rs"
