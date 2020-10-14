@@ -171,3 +171,7 @@ path = "src/a/1030.rs"
 [[bin]]
 name = "hulk"
 path = "src/a/705.rs"
+
+[[bin]]
+name = "even-odds"
+path = "src/a/318.rs"
