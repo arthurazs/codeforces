@@ -151,3 +151,23 @@ path = "src/a/136.rs"
 [[bin]]
 name = "vanya-and-fence"
 path = "src/a/677.rs"
+
+[[bin]]
+name = "kefa-and-first-steps"
+path = "src/a/580.rs"
+
+[[bin]]
+name = "caps-lock"
+path = "src/a/131.rs"
+
+[[bin]]
+name = "magnets"
+path = "src/a/344.rs"
+
+[[bin]]
+name = "in-search-of-an-easy-problem"
+path = "src/a/1030.rs"
+
+[[bin]]
+name = "hulk"
+path = "src/a/705.rs"
