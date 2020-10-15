@@ -179,3 +179,7 @@ path = "src/a/318.rs"
 [[bin]]
 name = "expression"
 path = "src/a/479.rs"
+
+[[bin]]
+name = "calculating-function"
+path = "src/a/486.rs"
