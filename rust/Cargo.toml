@@ -175,3 +175,7 @@ path = "src/a/705.rs"
 [[bin]]
 name = "even-odds"
 path = "src/a/318.rs"
+
+[[bin]]
+name = "expression"
+path = "src/a/479.rs"
