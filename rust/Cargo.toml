@@ -187,3 +187,7 @@ path = "src/a/486.rs"
 [[bin]]
 name = "gravity-flip"
 path = "src/a/405.rs"
+
+[[bin]]
+name = "ultrafast-mathematician"
+path = "src/a/61.rs"
