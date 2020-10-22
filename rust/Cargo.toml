@@ -191,3 +191,7 @@ path = "src/a/405.rs"
 [[bin]]
 name = "ultrafast-mathematician"
 path = "src/a/61.rs"
+
+[[bin]]
+name = "puzzles"
+path = "src/a/337.rs"
