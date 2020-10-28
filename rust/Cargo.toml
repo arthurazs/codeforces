@@ -195,3 +195,7 @@ path = "src/a/61.rs"
 [[bin]]
 name = "puzzles"
 path = "src/a/337.rs"
+
+[[bin]]
+name = "drinks"
+path = "src/b/200.rs"
