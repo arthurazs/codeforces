@@ -203,3 +203,7 @@ path = "src/b/200.rs"
 [[bin]]
 name = "dubstep"
 path = "src/a/208.rs"
+
+[[bin]]
+name = "insomnia-cure"
+path = "src/a/148.rs"
