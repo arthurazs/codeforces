@@ -207,3 +207,7 @@ path = "src/a/208.rs"
 [[bin]]
 name = "insomnia-cure"
 path = "src/a/148.rs"
+
+[[bin]]
+name = "i-wanna-be-the-guy"
+path = "src/a/469.rs"
