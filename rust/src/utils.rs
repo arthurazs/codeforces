@@ -22,6 +22,13 @@ pub fn read_vec<T: FromStr>(split_char: char) -> Vec<T> {
         .collect()
 }
 
+pub fn read_hash<T: FromStr + std::cmp::Eq + std::hash::Hash>() -> std::collections::HashSet<T> {
+    read_str()
+        .split_whitespace()
+        .map(|value| value.parse::<T>().ok().expect("Error"))
+        .collect()
+}
+
 pub fn read_tuple<T: FromStr + Copy>() -> (T, T) {
     let buffer: Vec<T> = read_vec(' ');
     (buffer[0], buffer[1])
