@@ -215,3 +215,7 @@ path = "src/a/469.rs"
 [[bin]]
 name = "is-your-horseshoe-on-the-other-hoof"
 path = "src/a/228.rs"
+
+[[bin]]
+name = "arrival-of-the-general"
+path = "src/a/144.rs"
