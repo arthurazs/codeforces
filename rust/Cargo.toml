@@ -219,3 +219,7 @@ path = "src/a/228.rs"
 [[bin]]
 name = "arrival-of-the-general"
 path = "src/a/144.rs"
+
+[[bin]]
+name = "divisibility-problem"
+path = "src/a/1328.rs"
